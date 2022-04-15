@@ -46,10 +46,15 @@ body{
     border-radius: 10px;
 }
 @media screen and (max-width: 600px) {
-    body{
-        
-        width: fit-content;
-        height: fit-content;
+    .container{
+        flex: 50%;
+    max-width: 48%;
     }
     
-}
+    }
+    @media screen and (max-width: 800px){
+        .container{
+         flex: 100%;
+          max-width: 96%;
+        }
+    }
